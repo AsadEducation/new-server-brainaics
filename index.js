@@ -35,6 +35,7 @@ async function run() {
     const columnCollection = database.collection("Columns");
     const taskCollection = database.collection("Tasks");
     const boardCollection = client.db("Brainiacs").collection("boards");
+    const rewardCollection = database.collection("Rewards"); 
 
 
 // my Profile reward section
